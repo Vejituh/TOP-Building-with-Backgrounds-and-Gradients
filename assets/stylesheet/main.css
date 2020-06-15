@@ -49,17 +49,22 @@ table {
 
 /*** Header ***/
 header {
-    height: 736px;
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 290px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+       -ms-flex-pack: center;
+     justify-content: center;
 }
 .background-image {
     background: url("https://web.archive.org/web/20140226220919im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg") 0 100% no-repeat;
-    background-size: cover;
-    background-clip: border-box;
-    background-origin: border-box;
-    position: absolute;
-    height: 736px;
+    background-size: 1440px 1315px;
+    background-position: 50% 90%;
     width: 1440px;
 }
