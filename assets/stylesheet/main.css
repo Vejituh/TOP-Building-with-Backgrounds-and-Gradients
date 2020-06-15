@@ -46,3 +46,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*** Header ***/
+header {
+    height: 736px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.background-image {
+    background: url("https://web.archive.org/web/20140226220919im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg") 0 100% no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-origin: border-box;
+    position: absolute;
+    height: 736px;
+    width: 1440px;
+}
