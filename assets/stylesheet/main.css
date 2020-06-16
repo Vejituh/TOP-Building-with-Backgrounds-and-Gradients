@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+/*** styling ***/
+body {
+    color: #fff;
+}
+
 /*** Header ***/
 header {
     position: absolute;
@@ -115,4 +120,33 @@ nav input {
     background-color: rgba(255,255,255,.1);
     -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
     box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+}
+
+/*** Hero Info ***/
+.hero-info {
+    display: flex;
+    flex-flow: column wrap;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    padding: 50px 0;
+}
+.hero-info h1 {
+    font-size: 56px;
+    line-height: 76px;
+    font-weight: lighter;
+}
+.hero-info h3 {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 24px 0;
+    width: 840px;
+} 
+.hero-info a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+.hero-info a:hover {
+    text-decoration: underline;
 }
