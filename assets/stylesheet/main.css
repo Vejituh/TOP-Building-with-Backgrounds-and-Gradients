@@ -124,8 +124,13 @@ nav input {
 
 /*** Hero Info ***/
 .hero-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
     position: absolute;
     text-align: center;
     top: 110px;
@@ -149,4 +154,29 @@ nav input {
 }
 .hero-info a:hover {
     text-decoration: underline;
+}
+
+/*** Main ***/
+.main {
+    position: absolute;
+    z-index: 1;
+    bottom: 88px;
+    width: 100%;
+    height: 200px;
+}
+.main div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-width: 1024px;
+    max-width: 1440px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.main div img {
+    width: 25%;
+    border-right: 2px solid #fff;
 }
